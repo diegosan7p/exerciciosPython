@@ -1,0 +1,10 @@
+palavra = input('Digite qualquer palavra: ')
+
+print('O tipo desse valor é {}'.format(type(palavra)))
+print('Só tem espaços? {}'.format(palavra.isspace()))
+print('É um número? {}'.format(palavra.isnumeric()))
+print('É alfabétco? {}'.format(palavra.isalpha()))
+print('É alfanumérico? {}'.format(palavra.isalnum()))
+print('Está só em maiúscula? {}'.format(palavra.isupper()))
+print('Está só em minúscula? {}'.format(palavra.islower()))
+print('Esta capitalizada? {}'.format(palavra.istitle()))
